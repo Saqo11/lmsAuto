@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.lms.automation.TrainingPathsAdminTest
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 297.015 s <<< FAILURE! - in com.lms.automation.TrainingPathsAdminTest
-addNewCoursesOnATrainingPath  Time elapsed: 71.735 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <The Training Path has been deleted> but was: <>
-	at com.lms.automation.TrainingPathsAdminTest.removeTrainingPath(TrainingPathsAdminTest.java:164)
-
