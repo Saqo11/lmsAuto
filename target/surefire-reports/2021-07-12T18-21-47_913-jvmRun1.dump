@@ -1,9 +1,9 @@
-# Created at 2021-07-12T12:10:42.099
+# Created at 2021-07-12T18:22:03.263
 System.exit() or native command error interrupted process checker.
-java.lang.IllegalStateException: Cannot use PPID 17252 process information. Going to use NOOP events.
+java.lang.IllegalStateException: Cannot use PPID 19992 process information. Going to use NOOP events.
 	at org.apache.maven.surefire.booter.PpidChecker.checkProcessInfo(PpidChecker.java:155)
 	at org.apache.maven.surefire.booter.PpidChecker.isProcessAlive(PpidChecker.java:116)
-	at org.apache.maven.surefire.booter.ForkedBooter$2.run(ForkedBooter.java:213)
+	at org.apache.maven.surefire.booter.ForkedBooter$2.run(ForkedBooter.java:214)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
@@ -12,6 +12,6 @@ java.lang.IllegalStateException: Cannot use PPID 17252 process information. Goin
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
 
-# Created at 2021-07-12T12:11:24.170
+# Created at 2021-07-12T18:22:50.232
 Killing self fork JVM. PING timeout elapsed.
 

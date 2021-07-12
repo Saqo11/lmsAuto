@@ -11,5 +11,4 @@ com\Eleap\Algorithms\com\Admin\page\TrainingPathsAdminPage.class
 com\Eleap\Algorithms\user\page\UserDashboardPage.class
 com\Eleap\Algorithms\BasePage.class
 com\Eleap\Algorithms\com\Admin\page\BaseTab.class
-com\Eleap\Algorithms\com\Admin\page\UserSectionPage.class
 com\Eleap\Algorithms\helpers\WaitHelper.class
