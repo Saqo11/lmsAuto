@@ -87,13 +87,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.7.0</version>
                 <configuration>
-                    <compilerArgs>
-                        <arg>-verbose</arg>
-                        <arg>-Xlint:all,-options,-path</arg>
-                    </compilerArgs>
-
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -104,7 +101,9 @@
 
                 <!-- AspectJ is needed to process some annotation like @Attachment etc.-->
                 <configuration>
-
+                    <includes>
+                        <include>Sample.java</include>
+                    </includes>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
