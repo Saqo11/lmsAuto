@@ -1,28 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.lms.automation.LoginAdminTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.382 s <<< FAILURE! - in com.lms.automation.LoginAdminTest
-SingInPositiveTest  Time elapsed: 6.117 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4J87STC', ip: '192.168.129.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\QA\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a584d194a1f854f3c6f980ce587d7e20
-	at com.lms.automation.LoginAdminTest.SingInPositiveTest(LoginAdminTest.java:8)
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.81 s <<< FAILURE! - in com.lms.automation.LoginAdminTest
+SingInPositiveTest  Time elapsed: 0.631 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
 
-SingInNegativeTest  Time elapsed: 3.035 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from disconnected: Unable to receive message from renderer
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4J87STC', ip: '192.168.129.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\QA\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 01c2acb3c8ba35c2ccb7a3d94254f4fe
-	at com.lms.automation.LoginAdminTest.SingInNegativeTest(LoginAdminTest.java:19)
+SingInNegativeTest  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
 

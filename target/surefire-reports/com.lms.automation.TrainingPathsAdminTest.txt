@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.lms.automation.TrainingPathsAdminTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in com.lms.automation.TrainingPathsAdminTest
+deactivateTrainingPath  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+addNewCoursesOnATrainingPath  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+finishTrainingPath  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+createNegativeTrainingPath  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+assignNewUserTrainingPath  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+addTrainingPathTypePreSetNavigation  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+

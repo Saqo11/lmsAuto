@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.lms.automation.ObservationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.lms.automation.ObservationTest
+createObservation  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+

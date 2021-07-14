@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.lms.automation.OjtSectionTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.lms.automation.OjtSectionTest
+editOjtSection  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+leaveEmptyAllField  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+addNewOjtTraining  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+uploadBulk  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+newFieldForOJT  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
+displayUserOjt  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Uedsers\QA\Desktop\dcdedcd\eleap-autotest\chromeDriver\chromedriver.exe
+
