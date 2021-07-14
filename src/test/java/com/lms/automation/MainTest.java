@@ -40,7 +40,7 @@ public class MainTest {
     @BeforeEach
     public void start() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Uedsers\\QA\\Desktop\\dcdedcd\\eleap-autotest\\chromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\Desktop\\dcdcd\\eleap-autotest\\chromeDriver\\chromedriver.exe");
 
         driver = new ChromeDriver();
 
