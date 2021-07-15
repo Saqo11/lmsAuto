@@ -9,6 +9,7 @@ import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 
@@ -44,7 +45,12 @@ public class MainTest {
         driver=new ChromeDriver();
 
         driver.manage().window().maximize();
-
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--whitelisted-ips");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-extensions");
+        this.driver = new ChromeDriver(options);
 
         loginAdminPage = new LoginAdminPage(driver);
 
