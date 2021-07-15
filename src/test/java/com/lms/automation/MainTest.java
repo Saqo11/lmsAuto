@@ -40,9 +40,8 @@ public class MainTest {
     @BeforeEach
     public void start() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\Desktop\\dcdcd\\eleap-autotest\\chromeDriver\\chromedriver.exe");
-
-        driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
+        driver=new ChromeDriver();
 
         driver.manage().window().maximize();
 
